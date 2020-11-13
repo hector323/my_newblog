@@ -1,6 +1,6 @@
 
 # cd templates
-cat templates/top.html ./content/about.html templates/bottom.html > docs/about.html
+cat ./templates/top.html ./content/about.html ./templates/bottom.html > docs/about.html
 
 cat templates/top.html content/projects.html templates/bottom.html > docs/projects.html
 
